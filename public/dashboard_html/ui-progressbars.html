@@ -1,0 +1,917 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="utf-8" />
+        <title>Progress Bars | Vuesy - Admin & Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesdesign" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    
+    <body data-layout="horizontal" data-topbar="dark">
+
+    <!-- <body data-layout="horizontal"> -->
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            <header id="page-topbar">
+                <div class="navbar-header">
+                    <div class="d-flex">
+                        <!-- LOGO -->
+                        <div class="navbar-brand-box">
+                            <a href="index.html" class="logo logo-dark">
+                                <span class="logo-sm">
+                                    <img src="assets/images/logo-sm.svg" alt="" height="26">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="assets/images/logo-sm.svg" alt="" height="26"> <span class="logo-txt">Vuesy</span>
+                                </span>
+                            </a>
+
+                            <a href="index.html" class="logo logo-light">
+                                <span class="logo-sm">
+                                    <img src="assets/images/logo-sm.svg" alt="" height="26">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="assets/images/logo-sm.svg" alt="" height="26"> <span class="logo-txt">Vuesy</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <button type="button" class="btn btn-sm px-3 font-size-16 d-lg-none header-item" data-bs-toggle="collapse" id="horimenu-btn" data-bs-target="#topnav-menu-content">
+                            <i class="fa fa-fw fa-bars"></i>
+                        </button>
+
+                        <div class="topnav">
+                            <nav class="navbar navbar-light navbar-expand-lg topnav-menu">
+        
+                                <div class="collapse navbar-collapse" id="topnav-menu-content">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link dropdown-toggle arrow-none" href="index.html" id="topnav-dashboard" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="bx bx-home-circle icon"></i>
+                                                <span data-key="t-dashboard">Dashboard</span>
+                                            </a>
+                                        </li>
+        
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-uielement" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="bx bx-tone icon"></i>
+                                            <span data-key="t-elements">Elements</span> <div class="arrow-down"></div>
+                                            </a>
+
+                                            <div class="dropdown-menu mega-dropdown-menu px-2 dropdown-mega-menu-xl" aria-labelledby="topnav-uielement">
+                                                <div class="ps-2 p-lg-0">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <div>
+                                                                <div class="menu-title">Components</div>
+                                                                <div class="row g-0">
+                                                                    <div class="col-lg-5">
+                                                                        <div>
+                                                                            <a href="ui-alerts.html" class="dropdown-item" data-key="t-alerts">Alerts</a>
+                                                                            <a href="ui-buttons.html" class="dropdown-item" data-key="t-buttons">Buttons</a>
+                                                                            <a href="ui-cards.html" class="dropdown-item" data-key="t-cards">Cards</a>
+                                                                            <a href="ui-carousel.html" class="dropdown-item" data-key="t-carousel">Carousel</a>
+                                                                            <a href="ui-dropdowns.html" class="dropdown-item" data-key="t-dropdowns">Dropdowns</a>
+                                                                            <a href="ui-grid.html" class="dropdown-item" data-key="t-grid">Grid</a>
+                                                                            <a href="ui-images.html" class="dropdown-item" data-key="t-images">Images</a>
+                                                                            <a href="ui-modals.html" class="dropdown-item" data-key="t-modals">Modals</a>
+                                                                            <a href="ui-offcanvas.html" class="dropdown-item" data-key="t-offcanvas">Offcanvas</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-5">
+                                                                        <div>
+                                                                            <a href="ui-placeholders.html" class="dropdown-item" data-key="t-placeholders">Placeholders</a>
+                                                                            <a href="ui-progressbars.html" class="dropdown-item" data-key="t-progress-bars">Progress Bars</a>
+                                                                            <a href="ui-tabs-accordions.html" class="dropdown-item" data-key="t-tabs-accordions">Tabs & Accordions</a>
+                                                                            <a href="ui-typography.html" class="dropdown-item" data-key="t-typography">Typography</a>
+                                                                            <a href="ui-video.html" class="dropdown-item" data-key="t-video">Video</a>
+                                                                            <a href="ui-general.html" class="dropdown-item" data-key="t-general">General</a>
+                                                                            <a href="ui-colors.html" class="dropdown-item" data-key="t-colors">Colors</a>
+                                                                            <a href="ui-utilities.html" class="dropdown-item" data-key="t-utilities">Utilities</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                
+                                                        <div class="col-lg-4">
+                                                            <div>
+                                                                <div class="menu-title">Extended</div>
+                                                                <div>
+                                                                    <a href="extended-lightbox.html" class="dropdown-item" data-key="t-lightbox">Lightbox</a>
+                                                                    <a href="extended-rangeslider.html" class="dropdown-item" data-key="t-range-slider">Range Slider</a>
+                                                                    <a href="extended-sweet-alert.html" class="dropdown-item" data-key="t-sweet-alert">SweetAlert 2</a>
+                                                                    <a href="extended-rating.html" class="dropdown-item" data-key="t-rating">Rating</a>
+                                                                    <a href="extended-notifications.html" class="dropdown-item" data-key="t-notifications">Notifications</a>
+                                                                    <a href="extended-swiperslider.html" class="dropdown-item" data-key="t-swiperslider">Swiper Slider</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+        
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
+                                                <i class="bx bx-customize icon"></i>
+                                                <span data-key="t-apps">Apps</span> <div class="arrow-down"></div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="topnav-pages">
+
+                                                <a href="apps-calendar.html" class="dropdown-item" data-key="t-calendar">Calendar</a>
+                                                <a href="apps-chat.html" class="dropdown-item" data-key="t-chat">Chat</a>
+                                                <a href="apps-kanban-board.html" class="dropdown-item" data-key="t-kanban">Kanban Board</a>
+                                                <a href="apps-file-manager.html" class="dropdown-item" data-key="t-filemanager">File Manager</a>
+
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-ecommerce"
+                                                        role="button">
+                                                        <span data-key="t-ecommerce">Ecommerce</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-ecommerce">
+                                                        <a href="ecommerce-products.html" class="dropdown-item" data-key="t-products">Products</a>
+                                                        <a href="ecommerce-product-detail.html" class="dropdown-item" data-key="t-product-detail">Product Detail</a>
+                                                        <a href="ecommerce-orders.html" class="dropdown-item" data-key="t-orders">Orders</a>
+                                                        <a href="ecommerce-customers.html" class="dropdown-item" data-key="t-customers">Customers</a>
+                                                        <a href="ecommerce-cart.html" class="dropdown-item" data-key="t-cart">Cart</a>
+                                                        <a href="ecommerce-checkout.html" class="dropdown-item" data-key="t-checkout">Checkout</a>
+                                                        <a href="ecommerce-shops.html" class="dropdown-item" data-key="t-shops">Shops</a>
+                                                        <a href="ecommerce-add-product.html" class="dropdown-item" data-key="t-add-product">Add Product</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-email"
+                                                        role="button">
+                                                        <span data-key="t-email">Email</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-email">
+                                                        <a href="email-inbox.html" class="dropdown-item" data-key="t-inbox">Inbox</a>
+                                                        <a href="email-read.html" class="dropdown-item" data-key="t-read-email">Read Email</a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-contact"
+                                                        role="button">
+                                                    <span data-key="t-contacts">Contacts</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-contact">
+                                                        <a href="contacts-grid.html" class="dropdown-item" data-key="t-user-grid">User Grid</a>
+                                                        <a href="contacts-list.html" class="dropdown-item" data-key="t-user-list">User List</a>
+                                                        <a href="contacts-settings.html" class="dropdown-item" data-key="t-user-settings">User Settings</a>
+                                                    </div>
+                                                </div>
+
+                                                <a href="apps-gallery.html" class="dropdown-item" data-key="t-gallery">Gallery</a>
+
+                                    
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-projects"
+                                                        role="button">
+                                                    <span data-key="t-projects">Projects</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-projects">
+                                                        <a href="projects-grid.html" class="dropdown-item" data-key="t-p-grid">Projects Grid</a>
+                                                        <a href="projects-list.html" class="dropdown-item" data-key="t-p-list">Projects List</a>
+                                                        <a href="projects-overview.html" class="dropdown-item" data-key="t-p-overview">Project Overview</a>
+                                                        <a href="projects-create.html" class="dropdown-item" data-key="t-create-new">Create New</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+        
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-components" role="button"
+                                            >
+                                                <i class="bx bx-layer icon"></i>
+                                                <span data-key="t-components">Components</span> <div class="arrow-down"></div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="topnav-components">
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-form"
+                                                        role="button">
+                                                        <span data-key="t-forms">Forms</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-form">
+                                                        <a href="form-elements.html" class="dropdown-item" data-key="t-basic-elements">Basic Elements</a>
+                                                        <a href="form-validation.html" class="dropdown-item" data-key="t-validation">Validation</a>
+                                                        <a href="form-advanced.html" class="dropdown-item" data-key="t-advanced-plugins">Advanced Plugins</a>
+                                                        <a href="form-editors.html" class="dropdown-item" data-key="t-editors">Editors</a>
+                                                        <a href="form-uploads.html" class="dropdown-item" data-key="t-file-upload">File Upload</a>
+                                                        <a href="form-wizard.html" class="dropdown-item" data-key="t-wizard">Wizard</a>
+                                                        <a href="form-mask.html" class="dropdown-item" data-key="t-mask">Mask</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-table"
+                                                        role="button">
+                                                        <span data-key="t-tables">Tables</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-table">
+                                                        <a href="tables-basic.html" class="dropdown-item" data-key="t-bootstrap-basic">Bootstrap Basic</a>
+                                                        <a href="tables-advanced.html" class="dropdown-item" data-key="t-advanced-tables">Advance Tables</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-charts"
+                                                        role="button">
+                                                        <span data-key="t-apex-charts">Apex Charts</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-charts">
+                                                        <a href="charts-line.html" class="dropdown-item" data-key="t-line">Line</a>
+                                                        <a href="charts-area.html" class="dropdown-item" data-key="t-area">Area</a>
+                                                        <a href="charts-column.html" class="dropdown-item" data-key="t-column">Column</a>
+                                                        <a href="charts-bar.html" class="dropdown-item" data-key="t-bar">Bar</a>
+                                                        <a href="charts-mixed.html" class="dropdown-item" data-key="t-mixed">Mixed</a>
+                                                        <a href="charts-timeline.html" class="dropdown-item" data-key="t-timeline">Timeline</a>
+                                                        <a href="charts-candlestick.html" class="dropdown-item" data-key="t-candlestick">Candlestick</a>
+                                                        <a href="charts-boxplot.html" class="dropdown-item" data-key="t-boxplot">Boxplot</a>
+                                                        <a href="charts-bubble.html" class="dropdown-item" data-key="t-bubble">Bubble</a>
+                                                        <a href="charts-scatter.html" class="dropdown-item" data-key="t-scatter">Scatter</a>
+                                                        <a href="charts-heatmap.html" class="dropdown-item" data-key="t-heatmap">Heatmap</a>
+                                                        <a href="charts-treemap.html" class="dropdown-item" data-key="t-treemap">Treemap</a>
+                                                        <a href="charts-pie.html" class="dropdown-item" data-key="t-pie">Pie</a>
+                                                        <a href="charts-radialbar.html" class="dropdown-item" data-key="t-radialbar">Radialbar</a>
+                                                        <a href="charts-radar.html" class="dropdown-item" data-key="t-radar">Radar</a>
+                                                        <a href="charts-polararea.html" class="dropdown-item" data-key="t-polararea">Polararea</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-icons"
+                                                        role="button">
+                                                        <span data-key="t-icons">Icons</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-icons">
+                                                        <a href="icons-unicons.html" class="dropdown-item" data-key="t-unicons">Unicons</a>
+                                                        <a href="icons-feathericons.html" class="dropdown-item" data-key="t-feather-icons">Feather icons</a>
+                                                        <a href="icons-boxicons.html" class="dropdown-item" data-key="t-boxicons">Boxicons</a>
+                                                        <a href="icons-materialdesign.html" class="dropdown-item" data-key="t-material-design">Material Design</a>
+                                                        <a href="icons-fontawesome.html" class="dropdown-item" data-key="t-font-awesome">Font Awesome 5</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-map"
+                                                        role="button">
+                                                        <span data-key="t-maps">Maps</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-map">
+                                                        <a href="maps-google.html" class="dropdown-item" data-key="t-google">Google</a>
+                                                        <a href="maps-vector.html" class="dropdown-item" data-key="t-vector">Vector</a>
+                                                        <a href="maps-leaflet.html" class="dropdown-item" data-key="t-leaflet">Leaflet</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+        
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-more" role="button"
+                                            >
+                                                <i class="bx bx-file icon"></i>
+                                                <span data-key="t-pages">Pages</span> <div class="arrow-down"></div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="topnav-more">
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-pricing"
+                                                        role="button">
+                                                        <span data-key="t-pricing">Pricing</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-pricing">
+                                                        <a href="pricing-basic.html" class="dropdown-item" data-key="t-basic">Basic</a>
+                                                        <a href="pricing-table.html" class="dropdown-item" data-key="t-table">table</a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-invoices"
+                                                        role="button">
+                                                        <span data-key="t-invoices">Invoices</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-invoices">
+                                                        <a href="invoices-list.html" class="dropdown-item" data-key="t-invoice-list">Invoice List</a>
+                                                        <a href="invoices-detail.html" class="dropdown-item" data-key="t-invoice-detail">Invoice Detail</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-timeline"
+                                                        role="button">
+                                                        <span data-key="t-timeline">Timeline</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-timeline">
+                                                        <a href="timeline-center.html" class="dropdown-item" data-key="t-center-view">Center View</a>
+                                                        <a href="timeline-left.html" class="dropdown-item" data-key="t-left-view">Left View</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-auth"
+                                                        role="button">
+                                                        <span data-key="t-authentication">Authentication</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-auth">
+                                                        <div class="dropdown">
+                                                            <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-auth-basic"
+                                                                role="button">
+                                                                <span data-key="t-basic">Basic</span> <div class="arrow-down"></div>
+                                                            </a>
+                                                            <div class="dropdown-menu" aria-labelledby="topnav-auth-basic">
+                                                                <a href="auth-signin-basic.html" class="dropdown-item" data-key="t-signin">Sign In</a>
+                                                                <a href="auth-signup-basic.html" class="dropdown-item" data-key="t-signup">Sign Up</a>
+                                                                <a href="auth-signout-basic.html" class="dropdown-item" data-key="t-signout">Sign Out</a>
+                                                                <a href="auth-lockscreen-basic.html" class="dropdown-item" data-key="t-lock-screen">Lock Screen</a>
+                                                                <a href="auth-forgotpassword-basic.html" class="dropdown-item" data-key="t-forgot-password">Forgot Password</a>
+                                                                <a href="auth-resetpassword-basic.html" class="dropdown-item" data-key="t-reset-password">Reset Password</a>
+                                                                <a href="auth-emailverification-basic.html" class="dropdown-item" data-key="t-email-verification">Email Verification</a>
+                                                                <a href="auth-2step-basic.html" class="dropdown-item" data-key="t-2step-verification">2-step Verification</a>
+                                                                <a href="auth-thankyou-basic.html" class="dropdown-item" data-key="t-thankyou">Thank you</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="dropdown">
+                                                            <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-auth-cover"
+                                                                role="button">
+                                                                <span data-key="t-cover">Cover</span> <div class="arrow-down"></div>
+                                                            </a>
+                                                            <div class="dropdown-menu" aria-labelledby="topnav-auth-cover">
+                                                                <a href="auth-signin-cover.html" class="dropdown-item" data-key="t-signin">Sign In</a>
+                                                                <a href="auth-signup-cover.html" class="dropdown-item" data-key="t-signup">Sign Up</a>
+                                                                <a href="auth-signout-cover.html" class="dropdown-item" data-key="t-signout">Sign Out</a>
+                                                                <a href="auth-lockscreen-cover.html" class="dropdown-item" data-key="t-lock-screen">Lock Screen</a>
+                                                                <a href="auth-forgotpassword-cover.html" class="dropdown-item" data-key="t-forgot-password">Forgot Password</a>
+                                                                <a href="auth-resetpassword-cover.html" class="dropdown-item" data-key="t-reset-password">Reset Password</a>
+                                                                <a href="auth-emailverification-cover.html" class="dropdown-item" data-key="t-email-verification">Email Verification</a>
+                                                                <a href="auth-2step-cover.html" class="dropdown-item" data-key="t-2step-verification">2-step Verification</a>
+                                                                <a href="auth-thankyou-cover.html" class="dropdown-item" data-key="t-thankyou">Thank you</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-error"
+                                                        role="button">
+                                                        <span data-key="t-error-pages">Error Pages</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-error">
+                                                        <div class="dropdown">
+                                                            <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-404"
+                                                                role="button">
+                                                                <span>404</span> <div class="arrow-down"></div>
+                                                            </a>
+                                                            <div class="dropdown-menu" aria-labelledby="topnav-404">
+                                                                <a href="error-404-basic.html" class="dropdown-item" data-key="t-basic">Basic</a>
+                                                                <a href="error-404-cover.html" class="dropdown-item" data-key="t-cover">Cover</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="dropdown">
+                                                            <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-500"
+                                                                role="button">
+                                                                <span>500</span> <div class="arrow-down"></div>
+                                                            </a>
+                                                            <div class="dropdown-menu" aria-labelledby="topnav-500">
+                                                                <a href="error-500-basic.html" class="dropdown-item" data-key="t-basic">Basic</a>
+                                                                <a href="error-500-cover.html" class="dropdown-item" data-key="t-cover">Cover</a>
+                                                            </div>
+                                                        </div>
+                                            
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-utility"
+                                                        role="button">
+                                                        <span data-key="t-utility">Utility</span> <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-utility">
+                                                        <a href="pages-starter.html" class="dropdown-item" data-key="t-starter-page">Starter Page</a>
+                                                        <a href="pages-profile.html" class="dropdown-item" data-key="t-profile">Profile</a>
+                                                        <a href="pages-maintenance.html" class="dropdown-item" data-key="t-maintenance">Maintenance</a>
+                                                        <a href="pages-comingsoon.html" class="dropdown-item" data-key="t-coming-soon">Coming Soon</a>
+                                                        <a href="pages-faqs.html" class="dropdown-item" data-key="t-faqs">FAQs</a>
+                                                    </div>
+                                                </div>
+
+                                                <a href="layout-vertical.html" class="dropdown-item" data-key="t-vertical">Vertical</a>
+                                            </div>
+                                        </li>
+        
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="bx bx-search icon-sm"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0">
+                                <form class="p-2">
+                                    <div class="search-box">
+                                        <div class="position-relative">
+                                            <input type="text" class="form-control rounded bg-light border-0" placeholder="Search...">
+                                            <i class="bx bx-search search-icon"></i>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+            
+                        <div class="dropdown d-inline-block language-switch">
+                            <button type="button" class="btn header-item noti-icon"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img id="header-lang-img" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end">
+                    
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="eng">
+                                    <img src="assets/images/flags/us.jpg" alt="user-image" class="me-2" height="12"> <span class="align-middle">English</span>
+                                </a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp">
+                                    <img src="assets/images/flags/spain.jpg" alt="user-image" class="me-2" height="12"> <span class="align-middle">Spanish</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr">
+                                    <img src="assets/images/flags/germany.jpg" alt="user-image" class="me-2" height="12"> <span class="align-middle">German</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it">
+                                    <img src="assets/images/flags/italy.jpg" alt="user-image" class="me-2" height="12"> <span class="align-middle">Italian</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru">
+                                    <img src="assets/images/flags/russia.jpg" alt="user-image" class="me-2" height="12"> <span class="align-middle">Russian</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon" id="page-header-notifications-dropdown"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="bx bx-bell icon-sm"></i>
+                                <span class="noti-dot bg-danger rounded-pill">3</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                                aria-labelledby="page-header-notifications-dropdown">
+                                <div class="p-3">
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            <h5 class="m-0 font-size-15"> Notifications </h5>
+                                        </div>
+                                        <div class="col-auto">
+                                            <a href="javascript:void(0);" class="small"> Mark all as read</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-simplebar style="max-height: 250px;">
+                                    <h6 class="dropdown-header bg-light">New</h6>
+                                    <a href="" class="text-reset notification-item">
+                                        <div class="d-flex border-bottom align-items-start">
+                                            <div class="flex-shrink-0">
+                                                <img src="assets/images/users/avatar-3.jpg"
+                                                class="me-3 rounded-circle avatar-sm" alt="user-pic">
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">Justin Verduzco</h6>
+                                                <div class="text-muted">
+                                                    <p class="mb-1 font-size-13">Your task changed an issue from "In Progress" to <span class="badge badge-soft-success">Review</span></p>
+                                                    <p class="mb-0 font-size-10 text-uppercase fw-bold"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="text-reset notification-item">
+                                        <div class="d-flex border-bottom align-items-start">
+                                            <div class="flex-shrink-0">
+                                                <div class="avatar-sm me-3">
+                                                    <span class="avatar-title bg-primary rounded-circle font-size-16">
+                                                        <i class="uil-shopping-basket"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">New order has been placed</h6>
+                                                <div class="text-muted">
+                                                    <p class="mb-1 font-size-13">Open the order confirmation or shipment confirmation.</p>
+                                                    <p class="mb-0 font-size-10 text-uppercase fw-bold"><i class="mdi mdi-clock-outline"></i> 5 hours ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <h6 class="dropdown-header bg-light">Earlier</h6>
+                                    <a href="" class="text-reset notification-item">
+                                        <div class="d-flex border-bottom align-items-start">
+                                            <div class="flex-shrink-0">
+                                                <div class="avatar-sm me-3">
+                                                    <span class="avatar-title bg-soft-success text-success rounded-circle font-size-16">
+                                                        <i class="uil-truck"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">Your item is shipped</h6>
+                                                <div class="text-muted">
+                                                    <p class="mb-1 font-size-13">Here is somthing that you might light like to know.</p>
+                                                    <p class="mb-0 font-size-10 text-uppercase fw-bold"><i class="mdi mdi-clock-outline"></i> 1 day ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="text-reset notification-item">
+                                        <div class="d-flex border-bottom align-items-start">
+                                            <div class="flex-shrink-0">
+                                                <img src="assets/images/users/avatar-4.jpg"
+                                                    class="me-3 rounded-circle avatar-sm" alt="user-pic">
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">Salena Layfield</h6>
+                                                <div class="text-muted">
+                                                    <p class="mb-1 font-size-13">Yay ! Everything worked!</p>
+                                                    <p class="mb-0 font-size-10 text-uppercase fw-bold"><i class="mdi mdi-clock-outline"></i> 3 days ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="p-2 border-top d-grid">
+                                    <a class="btn btn-sm btn-link font-size-14 btn-block text-center" href="javascript:void(0)">
+                                        <i class="uil-arrow-circle-right me-1"></i> <span>View More..</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon right-bar-toggle" id="right-bar-toggle">
+                                <i class="bx bx-cog icon-sm"></i>
+                            </button>
+                        </div>
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item user text-start d-flex align-items-center" id="page-header-user-dropdown"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-3.jpg"
+                                alt="Header Avatar">
+                                <span class="ms-2 d-none d-xl-inline-block user-item-desc">
+                                    <span class="user-name">Marie N. <i class="mdi mdi-chevron-down"></i></span>
+                                </span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end pt-0">
+                                <h6 class="dropdown-header">Welcome Marie N!</h6>
+                                <a class="dropdown-item" href="pages-profile.html"><i class="mdi mdi-account-circle text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Profile</span></a>
+                                <a class="dropdown-item" href="apps-chat.html"><i class="mdi mdi-message-text-outline text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Messages</span></a>
+                                <a class="dropdown-item" href="apps-kanban-board.html"><i class="mdi mdi-calendar-check-outline text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Taskboard</span></a>
+                                <a class="dropdown-item" href="pages-faqs.html"><i class="mdi mdi-lifebuoy text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Help</span></a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><i class="mdi mdi-wallet text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Balance : <b>$6951.02</b></span></a>
+                                <a class="dropdown-item d-flex align-items-center" href="contacts-settings.html"><i class="mdi mdi-cog-outline text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Settings</span><span class="badge badge-soft-success ms-auto">New</span></a>
+                                <a class="dropdown-item" href="auth-lockscreen-cover.html"><i class="mdi mdi-lock text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Lock screen</span></a>
+                                <a class="dropdown-item" href="auth-signout-cover.html"><i class="mdi mdi-logout text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Logout</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collapse show dash-content" id="dashtoggle">
+                    <div class="container-fluid">
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box d-flex align-items-center justify-content-between">
+                                    <h4 class="mb-0">Progress Bars</h4>
+
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">UI Elements</a></li>
+                                            <li class="breadcrumb-item active">Progress Bars</li>
+                                        </ol>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+
+                        <!-- start dash info -->
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="card dash-header-box shadow-none border-0">
+                                    <div class="card-body p-0">
+                                        <div class="row row-cols-xxl-6 row-cols-md-3 row-cols-1 g-0">
+                                            <div class="col">
+                                                <div class="mt-md-0 py-3 px-4 mx-2">
+                                                    <p class="text-white-50 mb-2 text-truncate">Campaign Sent </p>
+                                                    <h3 class="text-white mb-0">197</h3>
+                                                </div>
+                                            </div><!-- end col -->
+
+                                            <div class="col">
+                                                <div class="mt-3 mt-md-0 py-3 px-4 mx-2">
+                                                    <p class="text-white-50 mb-2 text-truncate">Annual Profit</p>
+                                                    <h3 class="text-white mb-0">$489.4k</h3>
+                                                </div>
+                                            </div><!-- end col -->
+
+                                            <div class="col">
+                                                <div class="mt-3 mt-md-0 py-3 px-4 mx-2">
+                                                    <p class="text-white-50 mb-2 text-truncate">Lead Coversation</p>
+                                                    <h3 class="text-white mb-0">32.89%</h3>
+                                                </div>
+                                            </div><!-- end col -->
+
+                                            <div class="col">
+                                                <div class="mt-3 mt-md-0 py-3 px-4 mx-2">
+                                                    <p class="text-white-50 mb-2 text-truncate">Sales Forecast</p>
+                                                    <h3 class="text-white mb-0">75.35%</h3>
+                                                </div>
+                                            </div><!-- end col -->
+
+                                            <div class="col">
+                                                <div class="mt-3 mt-lg-0 py-3 px-4 mx-2">
+                                                    <p class="text-white-50 mb-2 text-truncate">Daily Average Income</p>
+                                                    <h3 class="text-white mb-0">$1,596.5</h3>
+                                                </div>
+                                            </div><!-- end col -->
+
+                                            <div class="col">
+                                                <div class="mt-3 mt-lg-0 py-3 px-4 mx-2">
+                                                    <p class="text-white-50 mb-2 text-truncate">Annual Deals</p>
+                                                    <h3 class="text-white mb-0">2,659</h3>
+                                                </div>
+                                            </div><!-- end col -->
+
+                                        </div><!-- end row -->
+                                    </div><!-- end card body -->
+                                </div><!-- end card -->
+                            </div><!-- end col -->
+                        </div>
+                        <!-- end dash info -->
+                    </div>
+                </div>
+
+                  <!-- start dash troggle-icon -->
+                  <div>
+                    <a class="dash-troggle-icon" id="dash-troggle-icon" data-bs-toggle="collapse" href="#dashtoggle" aria-expanded="true" aria-controls="dashtoggle">
+                        <i class="bx bx-up-arrow-alt"></i>
+                    </a>
+                </div>
+              <!-- end dash troggle-icon -->
+
+            </header>
+
+            <div class="hori-overlay"></div>
+    
+
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-header justify-content-between d-flex align-items-center">
+                                        <h4 class="card-title">Default Examples</h4>
+                                    </div><!-- end card header -->
+                                    <div class="card-body">
+                                        <div class="">
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div> 
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end card body -->
+                                </div> <!-- end card -->
+                            </div><!-- end col -->
+        
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-header justify-content-between d-flex align-items-center">
+                                        <h4 class="card-title">Backgrounds</h4>
+                                    </div><!-- end card header -->
+                                    <div class="card-body">        
+                                        <div class="">
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar bg-primary" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar bg-success" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar bg-purple" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div><!-- end crad body -->
+                                </div><!-- end crad -->
+                            </div> <!-- end col -->
+                        </div> <!-- end row -->
+        
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-header justify-content-between d-flex align-items-center">
+                                        <h4 class="card-title">Labels Example</h4>
+                                    </div><!-- end card header -->
+                                    <div class="card-body">
+                                        <div class="">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                            </div>
+                                        </div>
+                                    </div><!-- end card body -->
+                                </div><!-- end card -->
+                            </div><!-- end col -->
+        
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-header justify-content-between d-flex align-items-center">
+                                        <h4 class="card-title">Multiple Progressbars</h4>
+     BOx$"-p	8§! a  0#t ó$`d»b!|+B)vΩ5mo`D§`jccV JhÁUdFr`>K'¢Å(†©•™≤ h$*Ø` 3q≤dh (d"î¨&®„<…",gA{KjœAb%êf/-!"ª ° ≥i8Ñ8) ≠ + &4"a  p4vr†+rpë‚±†` S =nk>dc»c?3¨ s;c!!H` àh±@  ‚ ‡jbî §c4 b†`8$Ç "†≤È:¢``¶ tdiddcDacv2ı˙5ÚßwQ;?(`≤ A(°†4'9`"S)@©!"∞!+T`4  ‡p(p($®0-(2   r,diS eÙc;[≠.rrnorf„∑-∂lR•pjjw1¸rOgriSc"1"%$Ct⁄t#º˚˘%`h92sÆmcmIÚi`Ωﬁ·j{qÍ’ç2Ωµ †F}`tITqg]
+¢›ä4∏qÚÈv{lÛeM«X*ÇÉ∫2ø5t¡=™*§&*¢° ", à ∏¢ ) !†!$)ú&†0 % Ò· ≠ êB&p"‡ p <ui<peour°2@*-eÚgrCÌBuz
+ CM4Uia{QBr•¡=bxvÆÊÚıÒπÊU„ÍvdŸlcihw1e0`.s0Ÿ#$b{ca-PQLq•^Ôq‹'14""E|i)=x{@5Diio\B02$tjH·>w·lueo`z´1·å	-I/d` @$Äπ °dy&)A·+!) ®`0/#   ¶®bD®Ù  b  0(,»$h9t)vjk}3WÚ7¢L2NwH≈9`m!f)Bc›¬g!&4k?ÓÂ•ı{gÛr,ÛS)@8"1b‰:b•Ω"W{’T@&@í0%∫HbSÏ°-6·.uˆŒiV≠$(%9~Ë%}cÌııÔ≠.;*"$ Âyh0fv$Eeeaõµ  ∏`ztd!^.è@,≤1!+$nh&†0A")`†0@$()d† 2â•™! `4!8§3èta^6¿ h8"#b * Èp#¢! $ â‡  &¿fua8H"  dQ†1 <dIfzÉ¢  
+à$!∏é"$ÛBt0 $ s£1™ipà`%! 0 ≈~ûØ‰-∂ù0]IMÓFga≤ƒ#CÂq!M.
+$p‡ (8"†*B,b•"&®‚"!/0$(H$a2§a;y/|≥^#≠©âGŸdcs`Ì‡5≠o1a+† D  `"H4`¢£2*£*d¬ùkdh_48aÌ3 eLÄ,g8@%/2hn!Åf¢H"(!(8P0∞¥e±h0Aße"$ ¸)≈eflI‰gÜnÃ rOÓhM≈äP "Ä°Ï0I@5™f j0  p¨®°"(paƒ*°#3ll PMa21ù˙Û~tj4`7(n$∞ 2†d ´8,`∞=≥14∏ !‡ƒ
+bzhmñ™È,	–pMbmÜÏ-ÍiK72æ* ÿ0   ¢¿1$* $Å %êÙ`∞$¥`Gå„ 
+*i:TX∂khEi-∑oa! .Ú :  !$,p¢2`§"‡&42°Í 38Á¥s5ah
+2¢BË<f©v #lcˇ√=®Û‚vzmhtÈ`7Û$n5pVif%=AÎ"t·Ô0KL-d‡eujH$≠!|lH`fLiß~%˙ºg#s/¢Al‰˜:*.√u0Ì° $®*√%0∞"∞ E5‰  Ç†—J"à6 !‡0¨t§!+", 5H&‡cUayzq"wawd5uËgc&&⁄Álwql:H:`!†/ ‰ # 8Ä †(Aa·†$%`"2i®††!"$à00Î!¢t-v<ˇ!≠ábGÓ¶§'j6p)zc`oÒ.m˚X $≥0	I  ,∞(2&‡ §	 ∞°†§Ñ1™3ä }d4(#,ßc01;sâzm`*,8 <(9,† b*J 0#hÄ5!&"†& <)0Ñ4‡¯g8é! #   0$"¢Ì qa*°DO{H'∏"Ìå† 2$t§b "	P5 ((Ç8P(c(Ä‡ sGbÅ% `2´a<5ê85m+ñlRŸÂr{µ73B3Û a¡o6-32 ‡yâl=°E°io|∫®2Rxs*ø00G;H£$%(2Å‚=6q¨$t0aÄ .	°hlÇ O2` †$ "a°0pD(≤Ï:5®VpbdÏSqº74r+rµ‚N-k·P™PÔle92q2ﬂÓs·ÁsÍC2f GdYpa-]+!ÑX:"Ç1ùÍ`hewQ#%Êe} Âﬁwu( W2
+cˇ)Ò+:ÂlEy8:î#4f"q3Ω`)˜jNemee˚'0¢<1'æ{)F}u8
+§h∞9™â2h:4å0©†> o(8 ∞Ç‰!Ñ∞e0 !p 0$P$9 2´( /fd>˜`f0 Q• /1¬(‡'4" $cÂ	) •  Ñ¶
+(Ä&ÑHa∫#!b?0¥dÈˇ)cejxw=' rÓ«zf3≤†%Ò·Mrm`F´5httr8ayz?3¸2±b(`K 2` –  ´x(°$8!`£h°!  *‡p, !˘V:f´ ch*$ãd)F†L95Îy"v÷ÊzuÛ/ya2.:rKm!øcÉ"dÆr†Û{`Abj"Ò˛	4a02 $Ux*;;e32 `Bj„6y,ÒEﬁoG{k2u#à{¯e?wA^}pMIn!@py`˜~hdÂIAπ}"5vP ⁄;‰a3˙å (†‡‡)()±"&a0!"¢"`4 "ÄÑ#ò1Ò(†d` .I®†P·∑k1Ìne≤   #$·Ë0`D$¥A< /2<(0&©®`Å
+‘##@† $î8axGdk6∑"TÇ ï Ê% $%†!	√ •q"% (0¥(ä†P Ò« "§"‡e≠/,vŒ+.5π≠®.f6+wcJd›dx,nøJ6`‚©†.%` ("bî2Ë4¨%†; µ p ` x!à<è`aæ8&<)Ø= d'‡†3·sD6?º6í20aa. p¬†,q¢  Ä"b §!®" !(4≠Dc>ÿ.-ΩqNm`EÔ˛HH=?%®ÑM2°Ä# H,x   z \*‰00!Â`  £∏‰y˜dOaSaü”eiuHmñ
+>Äp†°  q( ¯!¢"£.)P "£( 
+∏a 0!$p\$ez˙r„{a”B{bzÂ/¬`É
+††`0 $ °Ç e(!( ®1!à@* §(8§, "¯ˆKl`#‹ êì?&1°BfhLÕtÌ˙9z’Sjji=q·f|~Î`-˜a˛ìuqn!ef¢g…0i$mßNmvem3qoen,AÚ™6é§∫¿î T :( $   ÑØ"x0®u +$ "∏<†‡#Ó,T#s]·WZ&c#Ú,~TzTmÂ¢o#Ni)iE&$[uÊm–e3n-»‰o  (H ∞á "êa £1â@ $!1c,	a¢H Ç¯( “"‡T'Êhv˙!()o un\j¢@d":uHO+p,•7Z (2™¢¥(!p D 0†50(1 "(1Ù!$2"d°(!&"b1&È'6sdw €*aAW‡6fj‰Y#> †*≤00 	 Ø@pad *,¢, P"b  Ë†(†°-ïä·∞ e`$%Ë´) 9ok{ ÉeYK˝4¥`0!±¶tr9‘™·  b AB† ")0(8 H B b†°.®#Ä"0†p<<dx"9ı¢q{-  x'G!fa{(:"°RÖ¿•®Ñ+  pa%‡∏(H Ä†‡  â,(ôa† ‰H:‡&§E≤0 °ìl©‰i>„L·ßSΩzÿ©4∞≈qY,(AWtpΩVÙÈq#ÊCqiz§‚+∞ﬂhÇ(2[œ{·1†} &c•Âi9a5A&#‚"?HÌ="v^wqvÂRrw1z
+†/–(`-V·ˆu¶ng˜>w¯bn Tum~…˙3emuÎ="∏&(sÍemxc‹|∆Xcp"1<˙&°?uÍ<gπûgPjÙQv50>|-tª~æ † 1	> H  `H Ä  x†à ††,‚*0 $ !Ä†¨}~nÂÈ22
+•¥Öò°†9$!)!   !!(%%f 0)  (  ` ¢0!A©+DmJ<
+1li±(™©8-!`4@v$¶¢ b@ d,$%@8 ``}∆`Î|7 >ë5"gj–‘1jbÛo»",~5 p-¡a®pƒ*Í‡a " $ `l ( 
+Ñ"2q≠tq˚>†<-±≠(db‡h3‡¢¥Ë•,>
+† $®* Ç""r*&≥j∞/"  Ä(Ñ( p} fe)Í \Å-geÒ<ea„?e o=}äh0 © §2·0!0ß) ñh† ¢·∞∂4h>k&È6>a|sgO!eŒÏ®tuWX <"∫ ($!8 ∏"ƒ`0 {p!8áH ßpn9p1 a,0 `,$¢ +£°R <|È„Ä¬LNz±=[w'>Jp!0r†r∞≤Â$x0 `1®a$ &0 &=(6h~0gM°u[=ÇÌmdzN,6H˛Í psrH  ∞1™"' "   %0 ™†± 5∏"0∏- d+ûpaf!Ûu}"gec'∆$!†172<%¨Ä0 Ç(Ê$)j„¸8 a!∞bh2	±6$$† >P®wcO·C˜9k‚Á2Dnf≥ÙS*qct%Jyç+g¸˜`l^}fev˝aAn8j-fh]t(b¨anf=a®l}ª gYn∞?V"?û) `@¢m"®(∞°!° r0‰H±i04$$"`h1aÇ/bz(@¥®∆Le33ù „qg‰5–yH(≈.É|bÌpeLv∆ZO"!øP5-Lµ>d¢`®hË`j4 ! † k" °¢()†d%M!¿(ß6(.,"1úΩdΩfzdΩ, mnÂ,KanÙ,keaÛdc‚'-b06l  !`§0‡!4‡êaÄ†≤'("§¥0 ($r§&(.,Ìñ 'nDP]'are-mnbu&>‡ ¿§Åp¶"ˇbp ˙°° (07 ` fπ&@‡&.ê$a êbTo&P""aêP7anã+eS∑«*"; †%•Å$Ò` !†tB|i $(<Ê 2¨(`µê&∂hf™ pe•C(4Êcv mƒiWW¬p>o„srsMí/4*<è$∞ ¥Ü0`≤"HÌ¨q! "!`a∞pd1°- Ä `  $P+@†! Òÿ`†çıiVDKjAÒR#`rogSı`c'baE*Ú[wt d&q-baZ}@vhqe2ö≤Ô=…5 ≥ˇo;≈{ıÊ1≤Ø 2|Y!·≥anh2M‡Ÿ%'Å§ÍnA/ˆ`Ó5AF~69>1xSgÚÈA§vmlqE}{Í®Üu Hq~`8rkLI|]h8h>Yê0.Ø¸h~$! !∞†` †22!0E®! ‡jËr∞ö	†lÄ  V†¶¿BË2,ÓÄdl=KPhræÄÄ(     °p@‰ h|"(b ¶©8‡"1°§@$°Ó,¥$)a Ç )ßRp`®¥`(lH2r/ˆ„Ô?±~s˘dK -îÉ$3 !‡ !®@t@& $#Ha †i$à≤*0(`( $4 ¡!® D§*<'  †0ºL	gÄg%≈a?`2¢.GcASÒdncPdR~*¶^@|saq`ùRxÛqd$=bÈ>J~fxgQ72±Î~lg5"ts'{çrpncSf∞bH˘Ïg="∂i%Á#P~≥%±ÈRi≈laax∂¡nGwP"05$'aí)#-V‡\ÕE/…~$#jAÚo!,alQÒuaˇ9" 1 >|/T„◊9ä A!8!;"h ¶ 2™& 6`∞ <(%b4"a°`â2ré†(p4!d dd`Væ*D®¢"mdd 030""0¨ πÒ®∏ I(b$ †© @3Z)B'`†,szd˘v ciIfgπ6q‚OgÂ[0må(º¢<í  ò$ (%†h:'‰ !(`TÄ00!"øê"¥0"d0  † `$Ä∞8@h(8Ê©Fa˚lπÛªxr>eÁu”&As 6Ûmg÷a2wé‚ar-∑4rcB'l"bfMÈÓfÁ∫ {,.Â=7 NOareR+wEt¨;v]ÌT'odŒ*®58 y2ak-ˇ•Î˜rO˜=º5 &ebzmdªˆELwEY'd£< 0d2ia◊VcD„Q-clAUa<¢&|'eyN>Í∞4ÅhÄ6 ‰‡(q0xÄ‡¶£Ä®% §‡`%†@ 00#$ 5®2 †∞DNØOoN>è•8 à0/ #≤∫@H"
+†®jê$,"4·≈ h  †' 0  F d†?·pw®q,bu"y˙Ô'z‰w†Laml>{8)Ñ=&. Ù ®!2m)> !t°∞B `Ëa ¢Í®!E b  §0>O  î`•¥#fÂckë&PjÔGf≠Iw-·Å¯}£o€{gcb°Erw„ŸAßY·baaPz|Œ|\zq€(a=—÷cgRubÛiÚc!„|y‹Wø&r*t‰höB∂7%cavia!iZ˝Ë.XV&2j"i1mdlfvavdoiÚ90¶≈ÙI˘?ˇaUvoUeX"Q
+ù|-vlú¨Ñ!*``8Ñ¢!¥ °D¿$`í  ‡`d`5`m$® p`†  l$4\'`K$5€ ∞*†$6;$ ¢*"¯,20" à®»≠" "27 !`P&0(a " 8†0‡8Ï	Xye(·?∞ù""f-cfuq˙9s≠*>(5 †04t∞0 ":% "†( ,( $Çî)ß  °†‚P`§04¨2d + <4y.∞lss{ebvvo&~a{kbe[&¿N%@ÑÚaLjSpËs<r+vde0cØ,''·Ïl&$0xªÏg9&¯TOc%fvi1grt`0Z~D)"Ui!	⁄!76$î i"©-Veh˝1.-w='7<2$asMel/aou0Uk~˝+0**·beq:ã|ˇ`mW`4#l p0*<ã‘…r/0°≠$1®%!§$".– •x(®!µ"4 !042ò1:®™°k$páD·d~–†"!$Ä †"!‡p1(lJ!‡ ` ≤1"I<nY†dq"≤•∞,$##1<D∏Á s|U5rV{cd—3Ø>†i†d(»`(  ºtËDb‚§1=®  (  6-  &#  p†fLê†5† ¥! <dŒTls-aw{?+w“]Â–%≥Â&ard—~ÎbZUígØ[sp/spS6p  -!!ÏUgÚ2 gO˝?={q8ÁVgR"jEpg·suŸÌ1™g)Ë¸r?!£{ 0C*I•m~nÒÎ-~QëÇ ™ dWLewy.8‡oMg="ò3 »pÌ«-*!FUk∑S8-,¥vº|id)n*5&•!0à$Æ%Ä8 10v≤Ña #3)a`±¢ d,d©ƒ2‡+0  "0†f©l©6ù6lh‰ (ÿ)h∞\4 0 qp% Æh`8 * Ddlê0! ∞$-Ø4M~æ,S°·§0∞ l!a,c¢#  4AÄ·Ü"ïtbp 0,Æ DiKeofú =Â!π`Jd&bur$j&Ô&ˇ=πä,+$$0£,``»a!B†   !Í $8ì&3`aa2*<ÁtÛP-º5-ÖaVx À˚ÓB-=~( ≥rJ¶(`a@' 0$0 °‡02 !¿• 82>pMr`®·a∞`d cˇ~/=æ. £®a e0y™` :(ê
+i !$®†"† °+t@ jScæ!«Õ\hyƒ∏vK>k¥!h§$a∑N≤(0iPÅ!0 `ài:`@ $c∞y¿iUchkÒ¥µ¢cr‰&Ó‚Äp‚!!"®$%ad∞ & ‰`	( !  (0 0‡B 0>ıô2`√¯#c#cÑp0´[e¡dmz |CQÒn[‡Ô?˜≠>qmÍuvw‰H x	bµw; )&ieÓ•AtmwA`	æÙO2c> (0¢(ê1∞$Q!D1¢§‡»2!!0pÅ ¥(•(2ö !`ú!°(8hT ãmì1<¢+!±&5d}gmi‡jC‘≥P|qvrQIur1w±8kh¥<xC$ u$0Ö!¨¯)h"!AB1Çh·Z` p0 $0  h0‰!"'†Èl8}ò•hAjh8^apLÙiÂa‰yr("Ø?à 0± 1i`"∞   ( iÅ**  !D0$Ò$8d!¶B∫4M¶ Î|ez˜7#cwTÂ=‚_|]Bπ (-∏$Ë%!†A· j†°4v  ¥ (-Ñ¥∏b†p%π b`∞·hAP‰bfqs¥¨ b|h(%P  }Ä2P0!l†!3t5Ñ ®‚f bß $0*É0%"  ¿h•»2"È}öÚL#Qwæ≠∫cq^ERsÑxkoÁvE£r,Zb$aÂÿsa‘‰e•t>/ÂuÔrÌ!„DsDl?0.Â6eπsrﬁ·´p*+	p @† ¨†A®)';`( ±$$t<∂  0` h$(#0@Dà ¶hq0Dmr9/¯·rB(*Uê'ar/Îpb·“  gÌWeoÂ∫Û  smhE=:(r;my23#)6#@a≤¸z°•3&˚$]äZ(.1f†abÎh©ÊcvUeL{o8Ç2-°!!r©ç!\¡ÂıÂUyn;‚π2ar%aC~ÈÃUÌle∏?12t+=Æ%t,4l%8î2≤F&*£¶ Hj,Ç( !¡‡hi¢ppa†`‡!0"@†"· “¨`?∏"-u<	1¢ pj $#b ƒ†`$X`"J ! $™&@$ $B&Ät)"!"(p†`0rt\knÏqm";<&0vE'∂ﬂ±T 0≥œbXÁsw¯({na}aeU=±SÎ7gw{∏m∞<4∏BÙ}IjqPoE2msw/n§≤®ê`!h  ¶i ë` $àphh   0 †04 §)0)$$@b † p†-Dicc|a¬Ò-Ñp|Jg˙%f~=bÒ6%•ÔinagfBmN(§+DpÔ\pıS;gaˆ2Árv]l9;Yb4ú˙q5¥mbaÈÕhawSosavi/?$<2ÔÚÈi-¿¨u˜minÍh ‡a@yid4ZîxeıÂY="p∞±
+æ≠Lip>ö`.`MC°.†ch°	Å$` ∫™ &	0©"8°∏`"(æøk|O4 `""§8( q` 1Ab®1$††` 48b" "  02  kp >Âi&°Ú…Òj⁄Ω'Ur7ßj˚≥cPÚ/v€HcB-yL*WNbbT•Æp~i?eÛqalvl= Àu;¸oh/sZ'g~&[s¬’£  $§Å
+qe` °ë-   í*`§0†@e`∏J*`0 #E†,"Å©¥!∞ 6djæﬂ| ss=" ‚#5#‰aw(8!0$"ge`3s¯le5°6|lae¢pÚoˇrgø35epb$˜¥ˇ6e5 5E|H8d20-"`arym2`}Â*g6(j6≤R(%h){ÈfÂ|q`++÷?",'§	˙ÈÎ,!mu%oaÿ%100®.|on#t/h!∞#!$‡a 8Ï! †°•1%∏ ®‡®2*0†(`"  °‡ pc)Åˆ†(x?îõr2Ç-$†Pl4(81`$( 3" !ö`§,° ·%qp®00( / "( I;† <¿iV,G,ÚW;∞Rng~m„r pÚ'or◊pS!x|®-n·i!t-F%pS=5e˚r∞n„$ts5C\+l/¯Úo·35kkŒv, ‰hr" "`¢ Ñ©Q.%$# d§p)4Ha!08&≠p1F∫Hp2Ä£  >6ªw*a,Îjc}&pjÎ˚h+Bsu‡!0∞¬%Ω}eu"k.w"(˜∑·µ¢rpÀg˙WvÒ¶D–b%sty≈x±uIf„¿.»ºß¢`qˆ)a©:Ql≈·~Gcz†€ " 1˙tc/r¯LyÒl˘f9a∏&qEz	È]r! òubÇ§=äqq¶[&l´v˜Rn`† %  ` a¨††  0`%DäA£C"`-#("8∞kf `$ ¶6f$°)4.Öi6æ°u%-,$8≤RÛ=(‡£qÇ¢≤† Ø %f'(`#Ï!$6$j#$ n$&¸`xR:#o%su<∏¢“y'rgQ!`Vr{2wq{l0I‚In.`qÕd-p mmCCqE"t3ı`M)@`ÂÛÂwofl∏p¨/  00dh•""8!0‡  !`0dµhuÙ2l$%ê5 ©!ÑhbÇ!±‡p}∆=> '~„ªS u∫4Z‰sWmrZz¢"eÎ9·gJÊr fcjÂe2r&ˇex’Zsba@"*ÒÙ|mm"Ái`vË†q5∏%*$9:aq-ÙEEu`Ôog≥3CqNPpÌ‡m~ÚÏUáoZΩ"yÙ(}r	92—Lt„mŸR 1: -ƒe~,Ü5 &&   (à`a 0d40<p¨" $0b¥0t !/042@Ù!ø-lyn∂,.!,#!¡`(Ò %k`∞@§ !)Äd "Bq‡° d£ (®,98 ∞</$Lv#*&´j†I5 !  @.¢+†"	ad "9  p#†<-fob?h<¢Ω%G\-b≠QD`bg$YΩ~ä‡0  0#  Å°(4b£%®™" a∞6,0!†$ /<)$J∂æ<)k@u.u$aprO--/®)(§"be4“®$ @©Ò ∞nÒ :ã8$ `(∞/‰Î77h,©Ω5lj}i√Á,;,~… 0 ,§ ?≤10(£dt(ìêdA¡4+"·6Æ®\ÅoÏt %.g-:Å” = à2“ç§©† p¯ :d#7@" (®dMÚ5ÎÈœ32L4/Ûræ") D§`" )‡`"Ï!q§Ä0 .&¢<`§4ûh~¨`faruπ1Ì?Hl¢, 1$‡ "æ 0PD Ñi™B %5‚c1† b$‰# (∏vxv<&Ì‡ss=(√a#vÜ∂˛‰ !¥(®dä`0 $ % °$ Ë `j3h 0=´#0/‡¸tuÚ6y8)r&˝e≈sƒØd·bWEÊ4nEu4Iz¨£ojs¨g%va#f=Ñ FB`z)u,ckj¸xÙ!kÛµ¬e^`eCö:l0$!gjÄP!@( Ñ4© # 0`$dE@ ,‰†( "pÊ:® 29nu*z8iRr	b	r$©åy}§u õGruıŸeŒvaËV.‚&Á sæh&Æ	4–( 0¢B°‚0(e`¢9,®% ®ò0`+  d≤$† -wÈˇ/9#y $Dn‚aÎ!sT4¨e!ÏŸS 	u~
+$&"‰4Ä!‚e%Q`1dRaå!®â"†  $!Cb™"§(   @ar(aNhew\`&{l'Bmdu°æ»0d#4f *∞( ††r‡!4Q(Ú†0Kj§38†hL:$Z!†	$†h`X 2ä0i¢ 4(/-8)∞P†A†`("Ä∂·å‡à!! `Ë4	op@,MS<!":Zz {#b!-®¿Ω(@§ÄXbb!@0é0 tq°"·b= & 9(r°)°¢<t	v0Û>·}}Vxuggrac{ÒaW‰¸". !¢¶01‚,  aπ ("d §!É2Vb2Ä§$2Ú§†ÄbT4 Vp&Ñ0Ch!}eŒRb¬-Áw£ùAPbGgv{∫mpr&{s(4ri—©dY`begva‰~Û`|bˆgdEø`±sœçsUqÚmr+‰¬˛io%?¶∏iPFc !*0!rbÈ-˜ÂÏı%iOz?™∫7äfvya>ra}≠u=i'9"13!tˇ!ùsvfqeoC:9"4Ÿ2 '¥/)tÆJ0"•(†·0Èv*à()p0! :0a‡$dbS2@!#*¢ †0¢ú/mq"
+å `∞90∞$*b"dp $†0 †† `$<de·# ‚ " ¢"xg §Ù)6ÄkËe„≤<"‰rOUp»wÚ°uixÊ
+ 6(` !$u&™	!%ê" ´a!P    pÚ:e‚(!ÍBÚ ‰%0(®J∞ ,dÈÙ ≥Xi{π§hso/j-3cM¢„rphFØYaGapS!`“mf2s`:na 2o¬myR¯r∏'2ecQVIu(cùÌÂ?"_ir*;†Ω%*qZyw©pËl’e≠;7" ( s3{I-te≈wgOEjâ"b srye≠'tdÂe≠p[=91∞n4?-lU∂)&$ ±r†y *#2Dp :B (t$ !<# R# ë $†  Af∞*Ê;ÿkñ?ö†a"Ø`$ ! X∞± ¡	$$3p* `00¿Ú0®! †9°(e Ä8~$Îb5c¸EcY>"zÒf:RSsÅm"mt v(h%¶!@``h@`Ò0Â‰#$à,!§0,T5¿4 j§0B¢à êBit$Ô&x:<∞kd!qaıBΩj„∞Õm£Pg;•Ó!jemFuI(r`mg˙gx{En| A∞oÏ¶=<zk/q`bw¬ar0mìxÕ<a}™wxÄt`c25p<™`krÈamvi,Õ¸n42f8"≤ŸíÒuÌVÛF˝bm+j$##cesí…Q-a|µ˛M!x9020"æ<gÁi0;,p&2` †*
+∞§ÄS(† £4pz  r`!Ä
+¿ÿ‡®a˘(  ,∞(=7f9r>§»~f†
+"d ! 3"AzÄ0  ! ( 1Ä,.z•‡Ä†T p $l.$c6&'‡msÆyB‘.ˇrd20m'-$%7{¨@±"P † a`Å "¢` d8@`%'$b  !hà"  (b !0‡e  Ä "(tÁK∂°bl#_r9Æ8rN˛Ê{s§
+aÛ®!b-`1l»lg$ﬁ$q•|yÁc‘"†3klm-+‘rÁ#2ge·Y≥≤Æ5$slπ [mET(}≤°2 u≤`,qjW'B©˝6;s$1rkaÅVamTBN_®9!loapXiue%uea!0_Ûê,æ8-ÏÚ
+0®4 Òr∞†)£≥à¿p  c)êË∞£Âd: @`0 †`B$Ü†R‡c!	¶™x∑t+Uò
+Æ©†
+`#8(  ‚B·†∞)¬(°%$(≠a 0bìh¢ dt `Ï @1l%§µ¨kFÅ{,1s<qÚIlvEÚvÇ‰‚¯t#>(® vÄ n  à†5&hàb1§$ 5h†¶ (®@b†80`Ñ+`4"pÄ\$b~!‰s7Cmv>Á‚rd˚Û/aPFÊ>xMnÌEZ(ˆo./rÛ»o!.`rv[eeo<j'g‚ÜÎ±ÚÒ*‚$sıŸneΩ"sMCQÈ˙2.õdcE‘ambê|v5nßw=#1≤0)cã`!1<5kÌ`Ó"≤& ¡±@cg2ÿ81·oaÚ* êr;µmfY÷∂hº.·∞x<:   Ä @b, 	Z4„Ë àà4‡ h0†≤!,*ºe 4¥-poT> (¿0*‡`rÄ8`2 !ò	¢)©É 0"»Èu1 (ga ¨4¿°Å,,d∏%lv%aÓq|P'pbﬂG2ÛÚJ>Æ(  ø2¿(  ¢# Ò"`a  ,@®!Ä¿`` 4∞ ™‰l-`4 &"∞äq"#%∞=`I/c‹i<SΩ"8”Ø[q{ˇ¨~pv#¬GØpuU0=Q!b•9'r°§°aod(Uo|iπ¢eyiu@‰1óbTÚ&0Cd}a`=≤ef@ Ëπ&zP≥$b!is!eÈ!ll$&gw>®P ¢(GskA-«a~Æ«\q‚-†4sqrjÈm6‚Ãum}E¯-"∫∞+ xl®r>âk%® (£;%( ©  ˙!‰04$"1 Ç(.º @(`d§""
+p∏:‚,ú2Â)˘h&°*`q ,!∞†`&"p"†` ©ê4†)y!πa åh°± a  †4èåiˆ¨L%«( $0"‡† 9ò "∏dÅ0∞#,08°`†$§ua‡` †%:0#(`P± t»'*å†$d– ê! %0`†-∞£a¢†‚p¬:îuV?µ©˜ÆEn$dCaD@ oEKˇ)u18Q ($34§Fp4 2H!0 $ †!'`   ]Eb&=:®Á!an  uabt%-;l!!%P %=` 0(0b(J&†R`"$* i(b6?è$Dv¿>i* d?(¶xÃâm°>) "1 0,+@0,< "  4"e!(∞$8Per. )%)ß}Ê~ q/N≠
+`, $r cAu•%Ω. "xP!ı`2ö"$%r@2(u˙ß8:™#'9˙†ª8pÎ< º(/§CO¶p˝˛·∑ΩOÏe˝Ï!πMn
+$08i$"c¢º    0?{D|w~0º%√0ens: `w7-ÔÎ^`Âw6-|	5·%! $¬ $( b2"5>#à$("e5  ( $†"  0&nØ~A +lß„sÒ ™nŒén[64
+†$ !H ®†,`0 2$0†!%*"GË|$saÛu&cnp£In©b%·ÏU√f*4  !¡Çd\3 -H $!´hhNè,"D’ÃÎvÇaú#sQ5""$c:Ô¿)‰pÉ ,jaÆ!†()p≤i∞†≤(¶†`‚ËµB+∂
+/	ty|=&Co,3M- !ni0`$#9! q*&(0†GB4qf≤$!`0P &{bRhQ[>ÌaTegt-wraxo*úu#eAuu1(.ßÙBÂmlÿƒÌj8Q-,§cccËW~af≠/pyÆ®TE#[≥o
+(Ö `≥ *"†!@h,,ï 6 "¢BÖ…,( Å¥$·|(#"B°)† p "#b∞!0! |`†d 1`ÏôH)RÎBB!3wNBs-lÆ{mÁæ".É %!hÜZ¢1(  †i0(‰94$( †@ê≤¶§0\d{z†foaas?"z%YfzçŸ=fp0\,gÎdl$\ÕrÂrlbY†+à !bÇ± $2$`<®,Ñ %P!(b(!p08,0†`ºq1ÅÄB_a¶|Ad@w/0‡ =h<gÌ•kQ›£mÊe$)"a'_%A`¸$ˆÊj¨≠dmÓœU
+¶&ËûI:@+˘(ΩC)‡c@f-‚DDt‡πºß	9.mNr·k?Lg2;'÷ßVibtbÒtØc[N3o5h:•·%º¬clqÓ["˘‘ dLudÕ{)$eû#aBqh8†ÄÄ"#`±∞p8††"2"()§‡*  0$ £D9s~l        û 8 B†` $ê  $$H!;1©"b/dk∂*jh¿≠†2ë‘:§c∞$  " p43"(kt·F.≠ `$(D,` 'r"π#11$`#  7Or,~=ê"‡ 'H`*!*±‡ (x‰fOh%e*pÏ1Ä|"¶") '!r;!‡≈4>B√"	@a+ ‚# je=H˚ml }cild„Ôl¥eDt;-8"(‚!p0#
+>∏s{Ê|á8 3(-r•=£)π4SÍD∫uaqu8ˆÚa8(mr,,ﬁ
+j 80j"ó ûë•d"⁄)3LuÒ3ˆ˜ctS‚ö% ®*)†4(FKx £La5oΩv˚ÎEÍ§ra˙(ﬁèPeD 15∞!8dsvsdi0PnvÊ9–ldhqx"!`{u?(9•3Á1".
+ B a5@* Ù †! a~phv
+;„Quw9£:I/h∞``bÂI,l"–bcaËYÖ·iie|9<ttuÛ-+ibP•¬	}è∑3?™( !`"§#0j≤¢(88»‡f\zt0tqr≥˝/e(2¬a°çS¢]je´MbN'vT/ÕÌ:y≤<ä`14Å"0q‡ `1ñ `! b§"! π¿h†Edi˘G‚oÚj‡aaY‡y8∂>Vgm58î9' ¢LÕ{w=1tnwdrii#¸mu}gol%=√¸VzE‰#qÆje7"v @ &·0  3aÑb5)† h†i î6k$t|wry=*)‚l,}a©¶KÂ/xe$kn_q§	@;N#>4nkøàº*ê§ :``E‡!"&$<  #(-n;eæz6Ïpy (BP1p& ¥`+"8.yK7ÆJJ#l1d, ÖÄ!)(ò ·@vË,¬ZD•0Ik'$è.<ä` (£Ë ÒHÌ ‡l¥,Z$vÍaÛvÿfmÎq•<#***†:"£ `(å)! p">lôf)|ccó?¢$,"Ï†(p<hh+( à dµ"m ,2Ñˆi -ÙA0s9ÇefSÍ*$Ái't8$ß("ü*¢X8∏`:hJ∆L¥H2h$# 8ÏDu∂(„$-wSmÁ∑püol&bÔ$,”L-vÏeC)=Íne+>.*
+hÃ#!·`}‡§ ¬!††"bÚ15ÄÈº¶›§ı\1aÃ c∂5"FkwmkÜN3ıkÌiFpqt%`DÈzuqpcÙ˘k&')aÌe)1LD©juP"; 5††ad® .%¿2}¨! à $®
+°¬ IjΩ*8i<G_r,dƒ˜o£t\"†t`la9cTupV»dZL"< *®+Ø$†0® tL8a†$∞4† 228n·Jqh9oT!P tœtÈ	cj!:KËujemH"≤m"la¿/} µ1upƒkaA|&û£,ˆDCj?+uby>0 ¶(§5∞B3dî m ‚°†í´$I~/$$*: + 2b‡9°†£ `$Ç1=laˇ``li3s?wm8(Lßmpo!Ómv¿åŸÉ[o`gmPRM0|!9!≥4∞ ®∞£  5" ∏d0=Ç80(&0ruz klmkç"hg6}≠Á -gk-˚Êñ/fD|¯d,B„am~+„¸iÏ8<¸A8Ke Ü0 ,$1ÇlÄ0`!¢ @4(±Fl$∞"¯†3!nmcD∫Sj≤~-hor®:nnt·fw•w…$Ta5Bho~€H\pÃ>¢+ÄÄ$h8i0 % §†§)å É !$‰·Bd†Id!£q&ffs.M
+Ëe√M/dÑ¶dÈ: ‰fÚ{0˛`·_uÙ≠h«Skj'ntQ,&Ãnr-2Ïl±aH;	ÒpµXû"Ò§$E"h‚ (!$‰c#`! 8z/Ïh|>à
+0 ! Ö·!2È'"|† ∫5(ı/ X
+0$£|·S=Ç,e/¥4Ì‚%7"vlg1gÙ/a</ÿ'<NÇp™ & 44aå0eb4"$<LiﬁtÂlÒ˚s#¢&6bm#8?£´ áo⁄9ß"ue„o!i{§®⁄≈"*¢` r∏! !‘ l! 2`(((∂bh °0wpı≈∂‡lLQv\‚G{ve-
+x]1r˜ÈÓ‹t`TcubbÚed{l2 Jay-{|a¯nytÂNn@e≤
+"2  °!†$x b∞!¢§v(@   d†0(¯»ª
+LakLttΩ|n^πLg
+t2 gÛh3‰y£dÌDX¥ã¢8 Ä1§¨1§*$d8É 0%$@à<,`;eLvh}{-:dÔÚMal•S?&})ÊÈJb!fo†?"ÈagÙrj{h1çmâW{u0˛§)Ê®tßnGfg®*!!@ $
+2g4»(¢ @Ä(i2†(πÆd≈r?f"(-4  $`-`¨$b≥*°<diZ«-√R=èÁÁÚau£)mc)4pe	oCÏwH-hfËÒ»Â+>JÄc∆Ë%  § 2$0  ‡@aÑ! 9¶"?IÓrı<,cÏ≈rÎy¶fOlOKh%)?ijfı:Ê¶p:¥Â•1:G!}A+.Ù)Ì4 P1sdÕm?°∑£© o(t +E0%01""í0h‰d)†}  ! yâdWí˝i˙9[4-ml$Â7¥ Pk4Fcn5≠5‚uaiK1~O$!Äq "x†≤¢b £(hp°z‡lpA<o.Ã`wÎe2‰Nr¨≈¯e¢‚	4`c|§0J‚À!9cq˝˝XH}„$t‚Tok"9`SÛ¬<j|”ze/6èe*É(±°e†i9Â‰=0∞-gMÈ∂xL=( $¢`q($* Ä#"%e®3(0‡ÌvEQª5e|ï$=bmˇ∑<\‚]gVv!	nº¸/jT<@√† ‡0Ä4hÆ$h ¥£	†¢Èßd‰KvaclQ—‡5cFkÍ.-`huÛi`g›2l.#heÛi-NRliÏ≈2*åÊ ∞#°i4Q"®  ($":A´p¶  4ÈB‡u$ÍŒqRr`o&T=C‰bk,	Vbwt00DYv`ù(cd$o{"blKv«æafu g!D/v}$T#
+¢( b 6`(!§0b (®1Ñ$Ba# f:Í…eÜÂ·itDt=o…4T»Ed({`8:zau}e≠eƒB7Xf2EÊÀx·`gGTOc`u@\ﬁ•blT9ß}f8E0⁄wÈGqty8Êêu8•lCpŒ¸$s©ZM$,°}¶]]bFy£ø/© ¢32±"!,‡`(". p -( &ËldA"¨!o`lq±6≥Åo˙ËãàCakÏ flL2"4gb§#.knO4mg9$ud¨tdrKd2_RMtiDhvlmf·Ózû04( 6®¢Ëh‡6¥ &d ⁄md~¯
+"†" u8>(†  h"0¢b°(~§h¬~+L'Ûcy$IxÈ.a(w„O‰bop=$#jd=Ál|ajd0ÉË†4 ( íÚf80  "H §Ñ/éeHk~ÿ91·ÈiySeÆfè˚m)sheacikNtwnfQ∫“«%"„!zÏ#/uE7BØ!Ëo€pÂs·‰LkN""I  @ %$&°à@-  1842¡r q≠"/e}%	s%?iï›X’£gvE 0aVd≤de|"sˇX`q o¸kLs-d5Ω¢dFgv,Ûf
+ÊÍ/vy/Û\dctgd{‚3<uËÙ£>ill¢ïN˜<.ÛQXe•!ßfGz}`c;b>	Ë $Ä08"†!	y A"(&H∏° †A=~q‚≠Ù!q¯eSS9vf≤kmbdı#9haa{ÏM""nop;bÙ·∫k4‰ºCm¨gxÈÆ|HxO*æBaPÈ~∏~olN8F∂	∂E6;40ê(*$ B(i !htßÍ	bzœ[   8 
+†#  ††Ä'2d4(›§4$P\%3Û8rx4HÂFÔ#(=‘Ø`baz`bÔh'˛4/'§K!‡h)!8B•d™e ≈$ º‚8,aDiwdhlu;S)"uoZˇç"Í-cf0cVˇ e¿a£≈Á	:gfe Æ"®∂&   x 2≥ $Ë"0™+# &ÊrgFaÍˆmsr=*f2∆5ß»!Sy˘È¸q}|¢ vyz-?ji&)NB@n°oD¢rÔtbaˆàÒ_#Ørß∞d2`$ Ç2 b> 3!‡(® 3§-ëÄ  kv?"—ËqjÒ‡-bÃporÙLmJc"(V3∆ı$-*ŒUb`A.†hw`‰Em0≤‰˙·r}Ö˛`ßzfdÌ.ceFE\46mq1±¢
+l`d 't'Pb`p#,0F,$$"tc· . B$¡L) !` ∞! 3  $sÙbt  å0Õ“ai0cÏaìx9b‰ecm%bh$si/≈)&,b(fÔblº4/q`dzec/Ìcr©(ÒCH0„¨L«+eΩGlpÊOHÆ*b`"0 0)áD" "†•"e"R6ò%›ÂfQ@c!1dD"a$&  ∞! T1t)jãE!Û±<j$o3Â,g(’Ôe #qclc@glÌI+©C|C≤Ø1Èíx∞∫!$ø` §4dB   a¨%!ıKnÒt‘(flac—2fKxl[dEcl%€`uı$5‰ope,btÛ@)„3dd¨f≤yÎa6p-U'foÚ	0i°‚‡h¢¢§‡Ïd Õ%Ñ$bà† 2 2"≤%ht õt‰§1R/c^lgtj@Ò“Î£†v!N¸`©ªdAfksTmÁ{(ynWf5„•kw}‰™tÖY$U"w$WIxwr@7#tDR∑tdˆf(Ù…pj¡Íi<lË wIä("+	 3`Â¶A êÉ-† °$‡x °!≠80?oqEl,c‹s7s=fˇRl,~=Ciœ¨È eÌè bl03§ 'pbëz˜lnr-dark">Dark</label>
+                    </div>
+
+                    <div id="sidebar-setting">
+                    <h6 class="mt-4 mb-3 sidebar-setting">Sidebar Size</h6>
+
+                    <div class="form-check sidebar-setting mt-1">
+                        <input class="form-check-input" type="radio" name="sidebar-size"
+                            id="sidebar-size-default" value="default" onchange="document.body.setAttribute('data-sidebar-size', 'lg')">
+                        <label class="form-check-label" for="sidebar-size-default">Default</label>
+                    </div>
+                    <div class="form-check sidebar-setting mt-1">
+                        <input class="form-check-input" type="radio" name="sidebar-size"
+                            id="sidebar-size-compact" value="compact" onchange="document.body.setAttribute('data-sidebar-size', 'md')">
+                        <label class="form-check-label" for="sidebar-size-compact">Compact</label>
+                    </div>
+                    <div class="form-check sidebar-setting mt-1">
+                        <input class="form-check-input" type="radio" name="sidebar-size"
+                            id="sidebar-size-small" value="small" onchange="document.body.setAttribute('data-sidebar-size', 'sm')">
+                        <label class="form-check-label" for="sidebar-size-small">Small (Icon View)</label>
+                    </div>
+
+                    <h6 class="mt-4 mb-3 sidebar-setting">Sidebar Color</h6>
+
+                    <div class="form-check sidebar-setting mt-1">
+                        <input class="form-check-input" type="radio" name="sidebar-color"
+                            id="sidebar-color-light" value="light" onchange="document.body.setAttribute('data-sidebar', 'light')">
+                        <label class="form-check-label" for="sidebar-color-light">Light</label>
+                    </div>
+                    <div class="form-check sidebar-setting mt-1">
+                        <input class="form-check-input" type="radio" name="sidebar-color"
+                            id="sidebar-color-dark" value="dark" onchange="document.body.setAttribute('data-sidebar', 'dark')">
+                        <label class="form-check-label" for="sidebar-color-dark">Dark</label>
+                    </div>
+                    <div class="form-check sidebar-setting mt-1">
+                        <input class="form-check-input" type="radio" name="sidebar-color"
+                            id="sidebar-color-brand" value="brand" onchange="document.body.setAttribute('data-sidebar', 'brand')">
+                        <label class="form-check-label" for="sidebar-color-brand">Brand</label>
+                    </div>
+                </div>
+
+                    <h6 class="mt-4 mb-3">Direction</h6>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="layout-direction"
+                            id="layout-direction-ltr" value="ltr">
+                        <label class="form-check-label" for="layout-direction-ltr">LTR</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="layout-direction"
+                            id="layout-direction-rtl" value="rtl">
+                        <label class="form-check-label" for="layout-direction-rtl">RTL</label>
+                    </div>
+
+                </div>
+
+            </div> <!-- end slimscroll-menu-->
+        </div>
+        <!-- /Right-bar -->
+
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+
+        <!-- JAVASCRIPT -->
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/metismenujs/metismenujs.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>
