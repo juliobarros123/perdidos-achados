@@ -27,5 +27,6 @@ Route:: /* middleware(['admin'])-> */prefix('')->namespace('Site')->group(
 
 Auth::routes();
 
+Route::post('users/registar', ['as' => 'site.users.register', 'uses' => 'Site\UserController@register']);
 
 Auth::routes();

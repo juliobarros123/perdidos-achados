@@ -26,7 +26,7 @@
 <link href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css" id="app-style" rel="stylesheet" type="text/css"  />
 {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" id="app-style" rel="stylesheet" type="text/css"  /> --}}
    
-   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+   {{-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> --}}
 <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
 <link rel="stylesheet" href="{{asset('assets/css/prova.css')}}">
 
@@ -48,7 +48,7 @@
 <script src="{{asset('assets/libs/metismenujs/metismenujs.min.js')}}"></script>
 <script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
 <script src="{{asset('assets/libs/feather-icons/feather.min.js')}}"></script>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <!-- apexcharts -->
 <script src="{{asset('assets/libs/apexcharts/apexcharts.min.js')}}"></script>
 
