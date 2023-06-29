@@ -36,28 +36,30 @@
     </div>
 
     <div class="row">
+      @foreach ($desaparecidas as $desaparecida)
+     
       <div class="col-lg-4 mb-4">
         <div class="post-entry-alt">
-          <a href="single.html" class="img-link"><img src="/site/images/img_7_horizontal.jpg" alt="Image"
+          <a href="single.html" class="img-link"><img src="{{asset($desaparecida->imagem)}}" alt="Image"
               class="img-fluid"></a>
           <div class="excerpt">
 
 
-            <h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
+            <h2>Nome:{{$desaparecida->nome}} / Terminal:{{$desaparecida->telefone}}</h2>
             <div class="post-meta align-items-center text-left clearfix">
               <figure class="author-figure mb-0 me-3 float-start"><img src="/site/images/person_1.jpg"
                   alt="Image" class="img-fluid"></figure>
               <span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
-              <span>&nbsp;-&nbsp; July 19, 2019</span>
+              <span>&nbsp;-&nbsp;{{dataPorExtenso($desaparecida->created_at)}}</span>
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor
-              laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo,
-              aliquid, dicta beatae quia porro id est.</p>
-            <p><a href="#" class="read-more">Continue Reading</a></p>
+            <p>{{limitarString($desaparecida->relato_desaparecimento,230)}}</p>
+            <p><a href="#" class="read-more">Continue lendo</a></p>
           </div>
         </div>
       </div>
+      @endforeach
+     
       <div class="col-lg-4 mb-4">
         <div class="post-entry-alt">
           <a href="single.html" class="img-link"><img src="/site/images/img_6_horizontal.jpg" alt="Image"

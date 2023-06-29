@@ -19,6 +19,8 @@ Route:: /* middleware(['admin'])-> */prefix('')->namespace('Site')->group(
 
         Route::get('', ['as' => 'site.home.index', 'uses' => 'HomeController@index']);
         Route::get('ocorrencias', ['as' => 'site.ocorrencias.index', 'uses' => 'OcorrenciaController@index']);
+        Route::post('ocorrencias/cadastrar', ['as' => 'site.ocorrencias.cadastrar', 'uses' => 'OcorrenciaController@cadastrar']);
+
         Route::get('desaparecidas', ['as' => 'site.desaparecidas.index', 'uses' => 'DesaparecidaController@index']);
         Route::get('econtradas', ['as' => 'site.econtradas.index', 'uses' => 'EncontradaController@index']);
 

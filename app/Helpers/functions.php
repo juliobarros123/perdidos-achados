@@ -14,6 +14,33 @@ function perguntas()
         ->select('perguntas.*', 'banco_perguntas.vc_descricao_bp','banco_perguntas.vc_imagem_bp')
         ->orderBy('perguntas.it_numero', 'asc');
 }
+
+function dataPorExtenso($data)
+{
+    $meses = array(
+        1 => 'Janeiro',
+        2 => 'Fevereiro',
+        3 => 'Março',
+        4 => 'Abril',
+        5 => 'Maio',
+        6 => 'Junho',
+        7 => 'Julho',
+        8 => 'Agosto',
+        9 => 'Setembro',
+        10 => 'Outubro',
+        11 => 'Novembro',
+        12 => 'Dezembro'
+    );
+
+    $dia = date('j', strtotime($data));
+    $mes = date('n', strtotime($data));
+    $ano = date('Y', strtotime($data));
+
+    $dataExtenso = $dia . ' de ' . ucfirst($meses[$mes]) . ' de ' . $ano;
+
+    return $dataExtenso;
+}
+
 function hoje_extenso()
 {
     $data = Carbon::now()->locale('pt_BR')->isoFormat('D [de] MMMM [de] YYYY');
@@ -73,6 +100,13 @@ function fh_cursos_disciplinas()
         ->join('disciplinas', 'disciplinas.id', 'curso_disciplinas.it_id_disciplina')
         ->select('curso_disciplinas.*', 'cursos.vc_nome as curso', 'disciplinas.vc_nome as disciplina');
 }
+function limitarString($string, $limite) {
+    if (mb_strlen($string) > $limite) {
+      $string = mb_substr($string, 0, $limite);
+      $string .= '...';
+    }
+    return $string;
+  }
 function calcularIdade($data)
 {
     $idade = 0;

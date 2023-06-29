@@ -54,7 +54,7 @@
                 <div class="site-navigation">
                     <div class="row g-0 align-items-center">
                         <div class="col-2">
-                            <a href="index.html" class="logo m-0 float-start">Blogy<span
+                            <a href="{{ route('site.home.index') }}" class="logo m-0 float-start">SOS CDL<span
                                     class="text-primary">.</span></a>
                         </div>
                         <div class="col-10 text-center">
@@ -81,7 +81,7 @@
                                     <li>
                                         <a href="{{ route('login') }}">Login</a>
                                     </li>
-                                    <li><a href="{{ route('register') }}">Registar</a></li>
+                                    <li><a href="{{ route('register') }}">Registar-me</a></li>
 
                                 @endauth
 

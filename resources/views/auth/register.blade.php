@@ -1,12 +1,12 @@
 @extends('layouts.site.app')
-@section('titulo', ' Entrar')
+@section('titulo', 'Registar-me')
 @section('conteudo')
 
     <div class="hero overlay inner-page bg-primary py-5">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center pt-5">
                 <div class="col-lg-6">
-                    <h1 class="heading text-white mb-3" data-aos="fade-up">Entrar</h1>
+                    <h1 class="heading text-white mb-3" data-aos="fade-up">Registar-me</h1>
                 </div>
             </div>
         </div>
